@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.26.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.1",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "compilerOptions": {
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm ussd8.ts"
+  }
+}
